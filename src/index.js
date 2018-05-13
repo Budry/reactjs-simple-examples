@@ -7,8 +7,4 @@
  * file that was distributed with this source code.
  */
 
-import React from 'react';
-import {render} from 'react-dom'
-import App from './components/App';
-
-render(<App />, document.getElementById("app"));
+console.log('test');
