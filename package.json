@@ -4,5 +4,10 @@
   "description": "",
   "main": "index.js",
   "license": "UNLICENSED",
-  "homepage": "https://bitbucket.org/budryjcu/react-example#readme"
+  "homepage": "https://bitbucket.org/budryjcu/react-example#readme",
+  "dependencies": {
+    "prop-types": "^15.6.1",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2"
+  }
 }
