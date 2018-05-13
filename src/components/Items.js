@@ -15,7 +15,7 @@ const Items = ({items, removeItem}) => {
   return (
     <ul>
       {items.map((item) => {
-        return <Item id={item.id} text={item.text} removeItem={removeItem}/>
+        return <Item id={item.id} text={item.text} removeItem={removeItem} key={item.id}/>
       })}
     </ul>
   )
