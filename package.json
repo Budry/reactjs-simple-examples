@@ -6,7 +6,8 @@
   "license": "UNLICENSED",
   "homepage": "https://bitbucket.org/budryjcu/react-example#readme",
   "scripts": {
-    "webpack": "webpack --config webpack.config.js"
+    "build": "webpack --config webpack.config.js",
+    "build:dev": "webpack --config webpack.config.js --watch"
   },
   "dependencies": {
     "prop-types": "^15.6.1",
